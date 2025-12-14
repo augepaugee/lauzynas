@@ -6,6 +6,8 @@ import { initializeApp } from 'firebase/app';
 import { getDatabase, ref, push, set } from 'firebase/database';
 
 // Firebase configuration
+// TODO: Replace these placeholder values with your actual Firebase project credentials
+// See FIREBASE_CONFIG.md for detailed setup instructions
 const firebaseConfig = {
   apiKey: "YOUR_API_KEY",
   authDomain: "YOUR_PROJECT_ID.firebaseapp.com",

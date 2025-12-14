@@ -4,6 +4,9 @@ import { initializeApp } from 'firebase/app';
 import { getDatabase, ref, onValue, query, orderByKey, limitToLast } from 'firebase/database';
 
 // Firebase configuration - should match mobile app
+// TODO: Replace these placeholder values with your actual Firebase project credentials
+// See ../FIREBASE_SETUP.md for detailed setup instructions
+// For production, use environment variables (REACT_APP_FIREBASE_*)
 const firebaseConfig = {
   apiKey: "YOUR_API_KEY",
   authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
